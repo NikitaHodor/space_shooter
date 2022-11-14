@@ -202,7 +202,7 @@ function drawHP(){
     if(HP <= 0){
     ctx.font = "30px Arial ";
     ctx.fillStyle = "#ff0000";
-    ctx.fillText("ТЫ ОБОСРАЛСЯ", canvas.width/2 - 120, canvas.height/2);
+    ctx.fillText("Game Over", canvas.width/2 - 120, canvas.height/2);
     ctx.fillText("Press <F> to restart", canvas.width/2 - 130, canvas.height/2 + 60);
         if (press_F){
             document.location.reload();
